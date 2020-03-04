@@ -9,7 +9,7 @@ def summon_captain_planet(array)# code an argument here
   # Your code here
   array.map do |string|
     new_array = []
-    new_array << "#{string}!"
+    new_array << "#{string}.upcase!"
   end
 end
 
