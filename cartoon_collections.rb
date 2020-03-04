@@ -7,14 +7,14 @@ end
 
 def summon_captain_planet(array)# code an argument here
   # Your code here
+new_array = []
   array.map do |string|
     string.to_s
-    new_array = []
     new_string = "#{string}".capitalize
     new_string+="!"
     new_array << new_string
-    new_array
   end
+  new_array
 end
 
 def long_planeteer_calls# code an argument here
