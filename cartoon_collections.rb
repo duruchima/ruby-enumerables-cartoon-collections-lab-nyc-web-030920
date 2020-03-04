@@ -10,6 +10,7 @@ def summon_captain_planet(array)# code an argument here
   array.map do |string|
     new_array = []
     new_array << "#{string}!"
+  end
 end
 
 def long_planeteer_calls# code an argument here
